@@ -5,6 +5,8 @@
   justify-content: center;
   align-items: center;
   padding-top: 70px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 /* Container */
@@ -89,7 +91,7 @@
 }
 
 .todo-left span {
-  font-size: 15px;
+  font-size: 14px;
   color: #333;
 }
 
