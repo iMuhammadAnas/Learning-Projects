@@ -28,39 +28,42 @@ export default function MultiStepForm() {
   };
 
   return (
-    <div className="multi-form">
-      <Stepper steps={steps} currentStep={currentStep} />
+    <div>
+        <h1 className="s-heading">Multi-Step Form</h1>
+      <div className="multi-form">
+        <Stepper steps={steps} currentStep={currentStep} />
 
-      {currentStep === 0 && (
-        <PersonalInfo
-          data={formData}
-          update={updateFields}
-          onNext={() => setCurrentStep(1)}
-        />
-      )}
-      {currentStep === 1 && (
-        <ContactDetails
-          data={formData}
-          update={updateFields}
-          onBack={() => setCurrentStep(0)}
-          onNext={() => setCurrentStep(2)}
-        />
-      )}
-      {currentStep === 2 && (
-        <Preferences
-          data={formData}
-          update={updateFields}
-          onBack={() => setCurrentStep(1)}
-          onNext={() => setCurrentStep(3)}
-        />
-      )}
-      {currentStep === 3 && (
-        <Review
-          data={formData}
-          onBack={() => setCurrentStep(2)}
-          onSubmit={onSubmit}
-        />
-      )}
+        {currentStep === 0 && (
+          <PersonalInfo
+            data={formData}
+            update={updateFields}
+            onNext={() => setCurrentStep(1)}
+          />
+        )}
+        {currentStep === 1 && (
+          <ContactDetails
+            data={formData}
+            update={updateFields}
+            onBack={() => setCurrentStep(0)}
+            onNext={() => setCurrentStep(2)}
+          />
+        )}
+        {currentStep === 2 && (
+          <Preferences
+            data={formData}
+            update={updateFields}
+            onBack={() => setCurrentStep(1)}
+            onNext={() => setCurrentStep(3)}
+          />
+        )}
+        {currentStep === 3 && (
+          <Review
+            data={formData}
+            onBack={() => setCurrentStep(2)}
+            onSubmit={onSubmit}
+          />
+        )}
+      </div>
     </div>
   );
 }
