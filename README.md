@@ -1,69 +1,71 @@
-# React + TypeScript + Vite
+# Learning Projects Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and fully responsive **React + TypeScript** portfolio showcasing interactive toy projects.  
+This portfolio demonstrates practical learning through **mini-apps** like a **Todo App**, **Quiz App**, and a **Multi-Step Form** — each highlighting different aspects of React development, routing, and UI design.
 
-Currently, two official plugins are available:
+🌐 **Live Site:** [Demo Link Here](https://my-learning-projects.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🚀 Features
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- ⚡ Built with **React + TypeScript**
+- 🎯 Three fully functional mini-projects:
+  - **Todo App** – Task management with CRUD features
+  - **Quiz App** – Interactive quiz with timer & progress tracking
+  - **Multi-Step Form** – Stepper-based form with validation
+- 📱 **Responsive design** for all screen sizes
+- 🌐 Navigation handled via **React Router v7**
+- 🎨 Custom **vanilla CSS styling** (no frameworks) 
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 🛠️ Tech Stack
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+- **React + TypeScript**
+- **React Router DOM (v7)**
+- **Vanilla CSS** 
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+## 📸 Screenshot
+
+![Screenshot](https://raw.githubusercontent.com/iMuhammadAnas/Learning-Projects/refs/heads/main/public/learning-projects.png)
+
+---
+
+## 📂 Projects Included
+
+### ✅ Todo App
+A clean and simple task manager where you can add, edit, and delete tasks.
+
+### 🧠 Quiz App
+An interactive quiz game with a progress bar, timer, and real-time results.
+
+### 📝 Multi-Step Form
+A responsive stepper form with field validation and final review before submission.
+
+---
+
+## 🚀 Getting Started (For Local Development)
+
+- Clone the repo:
+
+   ```bash
+   git clone https://github.com/iMuhammadAnas/Learning-Projects.git
+   
+- Navigate to the folder:
+  
+  ```bash
+   cd Learning-Projects
+  
+- Install dependencies:
+  
+  ```bash
+  npm install
+  
+- Start the project:
+  
+  ```bash
+  npm start
