@@ -6,7 +6,6 @@
   padding-top: 70px;
 }
 
-
 .quiz-container {
   max-width: 760px;
   margin: 48px auto;
@@ -190,11 +189,11 @@
   border-radius: 10px;
   border: 1px solid #c7d2fe;
   font-weight: 700;
-  font-size: 14px;
+  font-size: 15px;
 }
 .summary {
   color: var(--muted);
-  font-size: 14px;
+  font-size: 15px;
 }
 
 .review-list {
@@ -235,4 +234,15 @@
   border-color: #fecaca;
   background: #fef2f2;
   color: #991b1b;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 435px) {
+  .score-badge {
+    font-size: 13px;
+  }
+  .summary {
+    font-size: 13px;
+  }
 }
