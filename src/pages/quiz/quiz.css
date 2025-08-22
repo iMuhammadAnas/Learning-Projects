@@ -130,6 +130,12 @@
   border-color: #fde68a;
   background: #fffbeb;
 }
+
+.timer.dead {
+  color: var(--dead);
+  border-color: #fd8a8a;
+  background: #ffebeb;
+}
 .timer.paused {
   opacity: 0.7;
 }

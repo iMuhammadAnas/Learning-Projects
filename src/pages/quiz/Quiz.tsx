@@ -253,9 +253,7 @@ export default function Quiz() {
                 Question <strong>{current + 1}</strong> / {total}
               </div>
               <div
-                className={`timer ${secondsLeft <= 5 ? "warn" : ""} ${
-                  locked ? "paused" : ""
-                }`}
+                className={`timer ${secondsLeft <= 5 ? "warn" : ""} ${secondsLeft <= 3 ? "dead" : ""} ${locked ? "paused" : ""}`}
                 aria-label="Time remaining"
                 title={locked ? "Paused (answer submitted)" : "Counting down"}
               >
