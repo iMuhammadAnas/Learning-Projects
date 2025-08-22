@@ -240,9 +240,9 @@
 
 @media screen and (max-width: 435px) {
   .score-badge {
-    font-size: 13px;
+    font-size: 12px;
   }
   .summary {
-    font-size: 13px;
+    font-size: 12px;
   }
 }
