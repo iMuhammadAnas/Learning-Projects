@@ -10,7 +10,7 @@ type TodoType = {
 const Todo = () => {
   const [todos, setTodos] = useState<TodoType[]>([
     { id: 1, text: "Go to gym", completed: false },
-    { id: 2, text: "Finish React Assignments", completed: false },
+    { id: 2, text: "Finish Assignments", completed: false },
     { id: 3, text: "Purchase groceries", completed: false },
   ]);
 
