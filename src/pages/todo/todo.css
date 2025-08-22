@@ -1,0 +1,135 @@
+
+.todo-main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+/* Container */
+.todo-container {
+  background: #fff;
+  padding: 25px 30px;
+  border-radius: 12px;
+  width: 400px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 48px auto;
+}
+
+/* Heading */
+.todo-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Form */
+.todo-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.todo-form input {
+  flex: 1;
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.todo-form input:focus {
+  border-color: #007bff;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.2);
+}
+
+.todo-form button {
+  padding: 10px 15px;
+  background: #007bff;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  transition: 0.2s;
+}
+
+.todo-form button:hover {
+  background: #0056b3;
+}
+
+/* Todo List */
+.todo-list {
+  list-style: none;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #f9fafb;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: 0.2s;
+}
+
+.todo-list li:hover {
+  background: #eef3f7;
+}
+
+/* Checkbox + text */
+.todo-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.todo-left span {
+  font-size: 15px;
+  color: #333;
+}
+
+.todo-left .completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+/* Buttons */
+.todo-actions button {
+  margin-left: 6px;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  transition: 0.2s;
+}
+
+.todo-actions button:first-child {
+  background: #ffc107;
+  color: #222;
+}
+
+.todo-actions button:first-child:hover {
+  background: #e0a800;
+}
+
+.todo-actions button:last-child {
+  background: #dc3545;
+  color: white;
+}
+
+.todo-actions button:last-child:hover {
+  background: #b02a37;
+}
+
+/* Empty Todo */
+.no-todo {
+  text-align: center;
+  margin-top: 20px;
+  color: #666;
+}
