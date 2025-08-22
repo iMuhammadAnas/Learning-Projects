@@ -23,6 +23,7 @@ body,
 #root {
   min-height: 100vh;
   min-width: 100%;
+  padding: 5px;
 }
 body {
   margin: 0;
