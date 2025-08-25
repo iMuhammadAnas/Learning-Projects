@@ -23,7 +23,7 @@ export default function MultiStepForm() {
   };
 
   const onSubmit = () => {
-    console.log("✅ Final Form Data:", formData);
+    console.log("Final Form Data:", formData);
     alert("Form submitted successfully!");
   };
 
