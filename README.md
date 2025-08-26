@@ -1,6 +1,6 @@
 # Learning Projects Portfolio
 
-A modern and fully responsive **React + TypeScript** portfolio showcasing interactive toy projects.  
+A modern and fully responsive **React + TypeScript** portfolio showcasing interactive learning projects.  
 This portfolio demonstrates practical learning through **mini-apps** like a **Todo App**, **Quiz App**, and a **Multi-Step Form** — each highlighting different aspects of React development, routing, and UI design.
 
 🌐 **Live Site:** [Demo Link Here](https://my-learning-projects.netlify.app/)
