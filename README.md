@@ -17,7 +17,6 @@ This portfolio demonstrates practical learning through **mini-apps** like a **To
   - **Multi-Step Form** – Stepper-based form with validation
 - 📱 **Responsive design** for all screen sizes
 - 🌐 Navigation handled via **React Router v7**
-- 🎨 Custom **vanilla CSS styling** (no frameworks) 
 
 ---
 
